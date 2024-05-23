@@ -1,0 +1,19 @@
+<form [formGroup]="segundoComponenteForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="nomeComprador">Nome Comprador:</label>
+    <input type="text" id="nomeComprador" formControlName="nomeComprador">
+  </div>
+  <div>
+    <label for="vendedor">Vendedor:</label>
+    <input type="text" id="vendedor" formControlName="vendedor">
+  </div>
+  <div>
+    <label for="data">Data:</label>
+    <input type="text" id="data" formControlName="data">
+  </div>
+  <div>
+    <label for="numeroProposta">Nº Proposta:</label>
+    <input type="text" id="numeroProposta" formControlName="numeroProposta">
+  </div>
+  <button type="submit">Enviar</button>
+</form>

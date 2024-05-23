@@ -1,0 +1,9 @@
+.form-container {
+  margin-top: 100px;
+  display: flex;
+}
+
+app-primeiro-componente,
+app-segundo-componente {
+  flex: 1;
+}

@@ -1,0 +1,19 @@
+<form [formGroup]="formPrimeiroComponente" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="fabricante">Fabricante:</label>
+    <input type="text" id="fabricante" formControlName="fabricante">
+  </div>
+  <div>
+    <label for="veiculo">Veículo:</label>
+    <input type="text" id="veiculo" formControlName="veiculo">
+  </div>
+  <div>
+    <label for="modelo">Modelo:</label>
+    <input type="text" id="modelo" formControlName="modelo">
+  </div>
+  <div>
+    <label for="ano">Ano:</label>
+    <input type="text" id="ano" formControlName="ano">
+  </div>
+</form>
+
